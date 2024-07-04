@@ -15,6 +15,16 @@ const Navbar = async () => {
             <li>Home</li>
           </Link>
         </div>
+        <div>
+          <Link href="/protected/server">
+            <li>Protected (server)</li>
+          </Link>
+        </div>
+        <div>
+          <Link href="/protected/client">
+            <li>Protected (client)</li>
+          </Link>
+        </div>
         <div className="flex gap-10">
           {!isAuth ? (
             <>
